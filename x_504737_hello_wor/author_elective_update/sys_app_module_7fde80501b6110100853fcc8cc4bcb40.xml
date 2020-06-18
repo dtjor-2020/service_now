@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My_Custom_Table">f7de80501b6110100853fcc8cc4bcb3d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Custom Tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_504737_hello_wor_my_custom_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_504737_hello_wor.my_custom_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 16:27:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fde80501b6110100853fcc8cc4bcb40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_app_module_7fde80501b6110100853fcc8cc4bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:47:24</sys_updated_on>
+        <timeline_page/>
+        <title>NeedIts</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</application>
+        <file_path/>
+        <instance_id>f78eb4d4dbb777403050ac44d4961954</instance_id>
+        <instance_name>dev93128</instance_name>
+        <name>sys_app_module_7fde80501b6110100853fcc8cc4bcb40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My_Custom_Table">f7de80501b6110100853fcc8cc4bcb3d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Custom Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_504737_hello_wor_my_custom_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_504737_hello_wor.my_custom_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-17 16:27:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fde80501b6110100853fcc8cc4bcb40</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NeedIts</sys_name><sys_overrides/><sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package><sys_policy/><sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope><sys_update_name>sys_app_module_7fde80501b6110100853fcc8cc4bcb40</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-18 16:47:24</sys_updated_on><timeline_page/><title>NeedIts</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1073277241</payload_hash>
+        <record_name>NeedIts</record_name>
+        <reverted_from/>
+        <source>91d53f401b2110100853fcc8cc4bcb61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:47:24</sys_created_on>
+        <sys_id>301ddd601b2110100853fcc8cc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c853f33e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:47:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>781ddd60fe21101093ba2ee413a2d683</update_guid>
+        <update_guid_history>781ddd60fe21101093ba2ee413a2d683:-1073277241,c4ee80501b611010326c60771e52b543:1014426085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIts">6a3d91a01b2110100853fcc8cc4bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:48:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>49b5840f6bee4a58b468b648e9eb3440</sys_id>
+        <sys_metadata>7fde80501b6110100853fcc8cc4bcb40</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIts</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_scope_delete display_value="">78ec20001c3a4dc0b94c145b9f691010</sys_scope_delete>
+        <sys_update_name>sys_app_module_7fde80501b6110100853fcc8cc4bcb40</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7fde80501b6110100853fcc8cc4bcb40">301ddd601b2110100853fcc8cc4bcb84</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:48:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

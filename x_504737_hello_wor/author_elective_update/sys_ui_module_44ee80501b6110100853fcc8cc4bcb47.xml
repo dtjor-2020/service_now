@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="My_Custom_Table">08ee80501b6110100853fcc8cc4bcb44</application>
+        <filter/>
+        <name>My Custom Tables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_504737_hello_wor.my_custom_table_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 16:27:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44ee80501b6110100853fcc8cc4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Custom Tables</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_ui_module_44ee80501b6110100853fcc8cc4bcb47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 16:27:16</sys_updated_on>
+        <table>x_504737_hello_wor_my_custom_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</application>
+        <file_path/>
+        <instance_id>f78eb4d4dbb777403050ac44d4961954</instance_id>
+        <instance_name>dev93128</instance_name>
+        <name>sys_ui_module_44ee80501b6110100853fcc8cc4bcb47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My_Custom_Table">08ee80501b6110100853fcc8cc4bcb44</application><filter/><name>My Custom Tables</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_504737_hello_wor.my_custom_table_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-17 16:27:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44ee80501b6110100853fcc8cc4bcb47</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Custom Tables</sys_name><sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package><sys_policy/><sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope><sys_update_name>sys_ui_module_44ee80501b6110100853fcc8cc4bcb47</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-17 16:27:16</sys_updated_on><table>x_504737_hello_wor_my_custom_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1661503793</payload_hash>
+        <record_name>My Custom Tables</record_name>
+        <reverted_from/>
+        <source>91d53f401b2110100853fcc8cc4bcb61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 16:27:16</sys_created_on>
+        <sys_id>40ee80501b6110100853fcc8cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c31b279b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 16:27:16</sys_updated_on>
+        <type>Module</type>
+        <update_guid>88ee8050b1611010f4c464b11180ac49</update_guid>
+        <update_guid_history>88ee8050b1611010f4c464b11180ac49:-1661503793</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:48:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1c7d18da38cd472c8909cf39d6083690</sys_id>
+        <sys_metadata>44ee80501b6110100853fcc8cc4bcb47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Custom Tables</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_scope_delete display_value="">78ec20001c3a4dc0b94c145b9f691010</sys_scope_delete>
+        <sys_update_name>sys_ui_module_44ee80501b6110100853fcc8cc4bcb47</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_44ee80501b6110100853fcc8cc4bcb47">40ee80501b6110100853fcc8cc4bcb4a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:48:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
