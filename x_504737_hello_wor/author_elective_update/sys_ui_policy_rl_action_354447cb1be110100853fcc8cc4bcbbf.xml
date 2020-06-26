@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="DELETE">
+        <list/>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 18:43:09</sys_created_on>
+        <sys_id>354447cb1be110100853fcc8cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_354447cb1be110100853fcc8cc4bcbbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 18:43:09</sys_updated_on>
+        <ui_policy display_value="UI Policy - Make fields read-only on close">6be27ecb1ba110100853fcc8cc4bcb1f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_rl_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</application>
+        <file_path/>
+        <instance_id>f78eb4d4dbb777403050ac44d4961954</instance_id>
+        <instance_name>dev93128</instance_name>
+        <name>sys_ui_policy_rl_action_354447cb1be110100853fcc8cc4bcbbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action"><sys_ui_policy_rl_action action="INSERT_OR_UPDATE"><list/><sys_class_name>sys_ui_policy_rl_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-26 18:43:09</sys_created_on><sys_id>354447cb1be110100853fcc8cc4bcbbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package><sys_policy/><sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope><sys_update_name>sys_ui_policy_rl_action_354447cb1be110100853fcc8cc4bcbbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-26 18:43:09</sys_updated_on><ui_policy display_value="UI Policy - Make fields read-only on close">6be27ecb1ba110100853fcc8cc4bcb1f</ui_policy><visible>ignore</visible></sys_ui_policy_rl_action></record_update>]]></payload>
+        <payload_hash>-909236403</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>569d25761b2110100853fcc8cc4bcb05</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 18:43:09</sys_created_on>
+        <sys_id>5e448bcb1be110100853fcc8cc4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172f1f0cb540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 18:43:09</sys_updated_on>
+        <type>UI Policy Related List Action</type>
+        <update_guid>96448bcbeee11010355289ade0f70c39</update_guid>
+        <update_guid_history>96448bcbeee11010355289ade0f70c39:-909236403</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 19:01:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_rl_action">sys_ui_policy_rl_action</sys_db_object>
+        <sys_id>07ac0ee328fd43389f24899ffdb81ce4</sys_id>
+        <sys_metadata>354447cb1be110100853fcc8cc4bcbbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_scope_delete display_value="">78ec20001c3a4dc0b94c145b9f691010</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_rl_action_354447cb1be110100853fcc8cc4bcbbf</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_rl_action_354447cb1be110100853fcc8cc4bcbbf">5e448bcb1be110100853fcc8cc4bcb39</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 19:01:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

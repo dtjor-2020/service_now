@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+   // Clear the field message written by the Execute if true script for the Other field
+		g_form.hideFieldMsg('u_other',true);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+		// Display a message under the Other field to explain what to put in the
+		// Other field.    
+	g_form.showFieldMsg('u_other','Briefly explain what you need.','info'); // info es el tipo de toast
+}]]></script_true>
+        <set_values/>
+        <short_description>NeedIt show or hide Other field</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 19:18:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>263c87431b2510100853fcc8cc4bcb7e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>NeedIt show or hide Other field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_ui_policy_263c87431b2510100853fcc8cc4bcb7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 20:37:53</sys_updated_on>
+        <table>x_504737_hello_wor_needit</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

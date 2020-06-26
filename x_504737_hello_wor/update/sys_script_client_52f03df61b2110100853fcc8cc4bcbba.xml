@@ -12,15 +12,91 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   alert("Thank you for loading the form. When closing the alert you'll be able to interact with the form.");
-}]]></script>
+      //Type appropriate comment here, and begin script below
+   alert("Welcome to Service Now");
+	
+
+   //Type appropriate comment here, and begin script below
+   var whatneeded = g_form.getValue('u_what_needed');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_what_needed');
+		
+		// If the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'hs'){
+			g_form.addOption('u_what_needed','hr1','Human Resources 1');
+			g_form.addOption('u_what_needed','hr2','Human Resources 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is facilities, add
+		// two facilities choices and other to the What needed field
+		// choice list
+		if(newValue == 'facilities'){
+			g_form.addOption('u_what_needed','facilities1','Facilities 1');
+			g_form.addOption('u_what_needed','facilities2','Facilities 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	
+		// New #1 Added by me
+		// If the value of the Request type field is Service Department, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'service department'){
+			g_form.addOption('u_what_needed','sd1','Network Service');
+			g_form.addOption('u_what_needed','sd2','Telecommunication Services');
+			g_form.addOption('u_what_needed','sd3','Training Tests');			
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	
+        // New #2 Added by me
+		// If the value of the Request type field is Service Department, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'snow'){
+			g_form.addOption('u_what_needed','snow_1','Trainings');
+			g_form.addOption('u_what_needed','snow_2','Tests');					
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	
+				
+		// If the value of the Request type field is legal, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'legal'){
+			g_form.addOption('u_what_needed','legal1','Legal 1');
+			g_form.addOption('u_what_needed','legal2','Legal 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	
+		// If the value of the Request type field is Other, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'other'){
+			g_form.addOption('u_what_needed','other_1','Other 1');
+			g_form.addOption('u_what_needed','other_2','Other 2');
+			g_form.addOption('u_what_needed','other','Other');}
+		
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_what_needed', whatneeded);
+		}
+		
+	
+		
+	}
+
+	
+
+]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-25 18:04:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52f03df61b2110100853fcc8cc4bcbba</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Need it - on load script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
@@ -28,7 +104,7 @@
         <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
         <sys_update_name>sys_script_client_52f03df61b2110100853fcc8cc4bcbba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-25 18:38:39</sys_updated_on>
+        <sys_updated_on>2020-06-26 19:34:37</sys_updated_on>
         <table>x_504737_hello_wor_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

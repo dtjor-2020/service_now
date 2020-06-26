@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_504737_hello_wor_needit">state=3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>UI Policy - Make fields read-only on close</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 17:31:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6be27ecb1ba110100853fcc8cc4bcb1f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UI Policy - Make fields read-only on close</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_ui_policy_6be27ecb1ba110100853fcc8cc4bcb1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 17:36:22</sys_updated_on>
+        <table>x_504737_hello_wor_needit</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</application>
+        <file_path/>
+        <instance_id>f78eb4d4dbb777403050ac44d4961954</instance_id>
+        <instance_name>dev93128</instance_name>
+        <name>sys_ui_policy_6be27ecb1ba110100853fcc8cc4bcb1f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_504737_hello_wor_needit"&gt;state=3^EQ&lt;item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;UI Policy - Make fields read-only on close&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-26 17:31:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6be27ecb1ba110100853fcc8cc4bcb1f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;UI Policy - Make fields read-only on close&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hello World" source="x_504737_hello_wor"&gt;919a92eb1b1d90100853fcc8cc4bcb1f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hello World"&gt;919a92eb1b1d90100853fcc8cc4bcb1f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_6be27ecb1ba110100853fcc8cc4bcb1f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-26 17:36:22&lt;/sys_updated_on&gt;&lt;table&gt;x_504737_hello_wor_needit&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1816128679</payload_hash>
+        <record_name>UI Policy - Make fields read-only on close</record_name>
+        <reverted_from/>
+        <source>569d25761b2110100853fcc8cc4bcb05</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 17:36:22</sys_created_on>
+        <sys_id>440572071b6110100853fcc8cc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172f1b3a64f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 17:36:22</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>8c0572079b61101016ad04bdc98b6951</update_guid>
+        <update_guid_history>8c0572079b61101016ad04bdc98b6951:-1816128679,4ed4b643c5e110102a3cae1078764600:-499079813,cbd3b6430fe1101045f2d8c05ce1cf86:-626553223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 19:01:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>53a7581c358148afbd8c1919a9405231</sys_id>
+        <sys_metadata>6be27ecb1ba110100853fcc8cc4bcb1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Policy - Make fields read-only on close</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_parent display_value="Needit">e94d5d201b2110100853fcc8cc4bcb19</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_scope_delete display_value="">78ec20001c3a4dc0b94c145b9f691010</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_6be27ecb1ba110100853fcc8cc4bcb1f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_6be27ecb1ba110100853fcc8cc4bcb1f">440572071b6110100853fcc8cc4bcb52</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 19:01:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
