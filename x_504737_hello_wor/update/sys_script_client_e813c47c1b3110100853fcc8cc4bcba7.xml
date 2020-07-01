@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>On load fields validation</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Request Type Options  - on load</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+		var whatneeded = g_form.getValue('u_what_needed');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_what_needed');
+		
+		// If the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'hs'){
+			g_form.addOption('u_what_needed','hs1','Human Resources 1');
+			g_form.addOption('u_what_needed','hs2','Human Resources 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is facilities, add
+		// two facilities choices and other to the What needed field
+		// choice list
+		if(newValue == 'facilities'){
+			g_form.addOption('u_what_needed','facilities 1','Facilities 1');
+			g_form.addOption('u_what_needed','facilities 2','Facilities 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		// If the value of the Request type field is legal, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'legal'){
+			g_form.addOption('u_what_needed','legal 1','Legal 1');
+			g_form.addOption('u_what_needed','legal 2','Legal 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+	
+		// If the value of the Request type field is Service Department, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'service_support'){
+			g_form.addOption('u_what_needed','service_supp_1','Service Support 1');
+			g_form.addOption('u_what_needed','service_supp_2','Service Support 2');
+			g_form.addOption('u_what_needed','other','Other');
+		}
+		
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_what_needed', whatneeded);
+		}
+}
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 15:09:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e813c47c1b3110100853fcc8cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Request Type Options  - on load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_script_client_e813c47c1b3110100853fcc8cc4bcba7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 15:09:47</sys_updated_on>
+        <table>x_504737_hello_wor_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
