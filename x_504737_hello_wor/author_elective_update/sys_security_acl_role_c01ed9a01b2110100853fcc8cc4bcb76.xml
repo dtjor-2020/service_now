@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:51:43</sys_created_on>
+        <sys_id>c01ed9a01b2110100853fcc8cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_504737_hello_wor_needit.x_504737_hello_wor.needit_user</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_security_acl display_value="x_504737_hello_wor_needit">441ed9a01b2110100853fcc8cc4bcb73</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c01ed9a01b2110100853fcc8cc4bcb76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:51:43</sys_updated_on>
+        <sys_user_role display_value="x_504737_hello_wor.needit_user" name="x_504737_hello_wor.needit_user">bf0ed9a01b2110100853fcc8cc4bcb56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</application>
+        <file_path/>
+        <instance_id>f78eb4d4dbb777403050ac44d4961954</instance_id>
+        <instance_name>dev93128</instance_name>
+        <name>sys_security_acl_role_c01ed9a01b2110100853fcc8cc4bcb76</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 16:51:43</sys_created_on>
+        <sys_id>c01ed9a01b2110100853fcc8cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_504737_hello_wor_needit.x_504737_hello_wor.needit_user</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_security_acl display_value="x_504737_hello_wor_needit">441ed9a01b2110100853fcc8cc4bcb73</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c01ed9a01b2110100853fcc8cc4bcb76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 16:51:43</sys_updated_on>
+        <sys_user_role display_value="x_504737_hello_wor.needit_user" name="x_504737_hello_wor.needit_user">bf0ed9a01b2110100853fcc8cc4bcb56</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1263661988</payload_hash>
+        <record_name>x_504737_hello_wor_needit.x_504737_hello_wor.needit_user</record_name>
+        <reverted_from/>
+        <source>e2f112121bf110100853fcc8cc4bcb50</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 17:23:54</sys_created_on>
+        <sys_id>3a0256121bf110100853fcc8cc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732527d5160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 17:23:54</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b602561298f1101057a78b637695280b</update_guid>
+        <update_guid_history>b602561298f1101057a78b637695280b:0,3ef1121246f11010c9b0e2110e506e9b:309638635,a550c2084cb590100a6fc35e23016da4:0,7140cec451b59010189a917f87ff3b97:309638635,248da576502110109d890e37660a15df:0,297de1767a21101070ac1e2de59e587d:309638635,c97b2df20321101059e4dfe340d114e5:0,64ca61f2fb21101085fe89ddf722406c:309638635,800ca9e607211010b9b980e284532107:0,7129e56654211010739d17c0e5d75c37:309638635,ce66a5e27c211010b70c5789963c92eb:0,e116ada21121101047d17ac5c81ba0ac:309638635,c01ed9a05b2110102c00ebcd61417f78:-521485650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_504737_hello_wor_needit.x_504737_hello_wor.needit_user">172cde961bf110100853fcc8cc4bcb34</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 18:08:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3ba8635fd3ae4f7994a67e3bd3b2b3e1</sys_id>
+        <sys_metadata>c01ed9a01b2110100853fcc8cc4bcb76</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_504737_hello_wor_needit.x_504737_hello_wor.needit_user</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_parent display_value="x_504737_hello_wor_needit">441ed9a01b2110100853fcc8cc4bcb73</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_scope_delete display_value="">78ec20001c3a4dc0b94c145b9f691010</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c01ed9a01b2110100853fcc8cc4bcb76</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c01ed9a01b2110100853fcc8cc4bcb76">3a0256121bf110100853fcc8cc4bcb0b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 18:08:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
