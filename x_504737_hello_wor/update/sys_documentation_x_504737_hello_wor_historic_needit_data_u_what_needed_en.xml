@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_what_needed" label="What needed" language="en" table="x_504737_hello_wor_historic_needit_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_what_needed</element>
+            <help/>
+            <hint/>
+            <label>What needed</label>
+            <language>en</language>
+            <name>x_504737_hello_wor_historic_needit_data</name>
+            <plural>What needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-07 17:24:57</sys_created_on>
+            <sys_id>88eb53a21bfd10100853fcc8cc4bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>What needed</sys_name>
+            <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+            <sys_update_name>sys_documentation_x_504737_hello_wor_historic_needit_data_u_what_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-07 17:24:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
