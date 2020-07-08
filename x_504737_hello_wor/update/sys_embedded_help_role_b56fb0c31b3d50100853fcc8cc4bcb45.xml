@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_504737_hello_wor.needit_task_user" name="x_504737_hello_wor.needit_task_user">256fbc431b3d50100853fcc8cc4bcba1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 19:18:16</sys_created_on>
+        <sys_id>b56fb0c31b3d50100853fcc8cc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>256fbc431b3d50100853fcc8cc4bcba1</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b56fb0c31b3d50100853fcc8cc4bcb45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 19:18:16</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
