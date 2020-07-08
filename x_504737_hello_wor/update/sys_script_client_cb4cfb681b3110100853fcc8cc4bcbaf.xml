@@ -55,9 +55,9 @@
 		
 		// If the form is loading and it is not a new record, set the u_what_needed value to the
 		// value from the record before it was loaded
-		if(isLoading && !g_form.isNewRecord()){
-			g_form.setValue('u_what_needed', whatneeded);
-		}
+		//if(isLoading && !g_form.isNewRecord()){
+			//g_form.setValue('u_what_needed', whatneeded);
+		//}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -65,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb4cfb681b3110100853fcc8cc4bcbaf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>NeedIt Request Type Options  - on change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
@@ -73,7 +73,7 @@
         <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
         <sys_update_name>sys_script_client_cb4cfb681b3110100853fcc8cc4bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 15:06:34</sys_updated_on>
+        <sys_updated_on>2020-07-08 20:52:22</sys_updated_on>
         <table>x_504737_hello_wor_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
