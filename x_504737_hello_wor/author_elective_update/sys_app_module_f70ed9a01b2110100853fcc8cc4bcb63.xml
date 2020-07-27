@@ -106,7 +106,7 @@
         <update_guid_history>620216124ef11010201c422d241592aa:0,f6f112124df1101038c8fd2e21f324bf:-846404455,1150c208f4b59010b916c3af07432c6c:0,b940cec442b59010372393695cf25fae:-846404455,9c8da5769321101003a2fd6f72f92fc1:0,657de176742110109fd4ff6288411fa1:-846404455,417b2df28b2110107f24d591fc6d5dad:0,74ca61f2f021101072f590d700cb468f:-846404455,37fb69e6922110103f9b3a7f06f296e7:0,b929e566522110104f478466f68c884d:-846404455,8666a5e2532110108a2f1fb2ee4d06bf:0,7116ada22721101036c3d8eb881743e8:-846404455,d9a96528a32110107be8183e747dfd98:648304781,a986a5e48521101033db1bf6e84b60a3:-653609300,66d5e1a46e2110100d110c953c4e70d2:-677038420,a395a5e4fe211010cd73c4bc62e2ae9b:1186972014,b30ed9a0582110108e62fdb4c48e7565:-1041090226</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="All">c0ca12961bf110100853fcc8cc4bcbda</sys_audit_delete>
+        <sys_audit_delete display_value="">c0ca12961bf110100853fcc8cc4bcbda</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 18:01:56</sys_created_on>

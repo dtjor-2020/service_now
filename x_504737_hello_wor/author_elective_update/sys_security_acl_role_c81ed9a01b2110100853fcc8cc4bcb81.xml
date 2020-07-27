@@ -60,7 +60,7 @@
         <update_guid_history>f602561217f110101c617dbe7affd90e:0,b2f11212b4f110102fe3765b24d3db95:-1078190580,e550c208e7b590101d78e3b525f324a7:0,f540cec433b590107c07edec43a78290:-1078190580,648da576d42110106ac27e9fd14277e2:0,e57de176132110100ea6268f46123b6a:-1078190580,0d7b2df22a211010ad689f84d6ecb6e8:0,ecca61f2752110102ef5cff1c9780165:-1078190580,c00ca9e6c12110102d2eeec63f1dc70a:0,fd29a5661821101068d817e72d66c4fe:-1078190580,0266a5e2032110107763da0b173ab7ef:0,6d16ada20c2110104ac77ea6ce42f0a5:-1078190580,c81ed9a0c0211010ed65d0b7865a4d83:-1909314865</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_504737_hello_wor_needit.x_504737_hello_wor.needit_user">572cde961bf110100853fcc8cc4bcb46</sys_audit_delete>
+        <sys_audit_delete display_value="">572cde961bf110100853fcc8cc4bcb46</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 18:08:10</sys_created_on>

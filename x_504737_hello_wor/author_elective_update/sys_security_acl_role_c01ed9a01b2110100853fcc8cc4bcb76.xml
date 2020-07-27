@@ -60,7 +60,7 @@
         <update_guid_history>b602561298f1101057a78b637695280b:0,3ef1121246f11010c9b0e2110e506e9b:309638635,a550c2084cb590100a6fc35e23016da4:0,7140cec451b59010189a917f87ff3b97:309638635,248da576502110109d890e37660a15df:0,297de1767a21101070ac1e2de59e587d:309638635,c97b2df20321101059e4dfe340d114e5:0,64ca61f2fb21101085fe89ddf722406c:309638635,800ca9e607211010b9b980e284532107:0,7129e56654211010739d17c0e5d75c37:309638635,ce66a5e27c211010b70c5789963c92eb:0,e116ada21121101047d17ac5c81ba0ac:309638635,c01ed9a05b2110102c00ebcd61417f78:-521485650</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_504737_hello_wor_needit.x_504737_hello_wor.needit_user">172cde961bf110100853fcc8cc4bcb34</sys_audit_delete>
+        <sys_audit_delete display_value="">172cde961bf110100853fcc8cc4bcb34</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 18:08:09</sys_created_on>

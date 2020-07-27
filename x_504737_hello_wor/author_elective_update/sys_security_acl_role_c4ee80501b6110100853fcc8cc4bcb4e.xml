@@ -42,7 +42,7 @@
         <update_guid_history>40ee8050e661101055d04318d8721e51:-1326620121</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_504737_hello_wor_my_custom_table.x_504737_hello_wor.my_custom_table_user">da3d51a01b2110100853fcc8cc4bcbdc</sys_audit_delete>
+        <sys_audit_delete display_value="">da3d51a01b2110100853fcc8cc4bcbdc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-18 16:48:03</sys_created_on>
