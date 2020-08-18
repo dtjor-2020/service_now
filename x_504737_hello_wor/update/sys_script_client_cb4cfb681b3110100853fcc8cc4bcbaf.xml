@@ -23,8 +23,8 @@
 		// If the value of the Request type field is hr, add
 		// two hr choices and other to the What needed field choice list
 		if(newValue == 'hs'){
-			g_form.addOption('u_what_needed','hs1','Human Resources 1');
-			g_form.addOption('u_what_needed','hs2','Human Resources 2');
+			g_form.addOption('u_what_needed','hr1','Human Resources 1');
+			g_form.addOption('u_what_needed','hr2','Human Resources 2');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 		// If the value of the Request type field is facilities, add
@@ -65,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb4cfb681b3110100853fcc8cc4bcbaf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>NeedIt Request Type Options  - on change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
@@ -73,7 +73,7 @@
         <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
         <sys_update_name>sys_script_client_cb4cfb681b3110100853fcc8cc4bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-08 20:52:22</sys_updated_on>
+        <sys_updated_on>2020-08-18 14:47:56</sys_updated_on>
         <table>x_504737_hello_wor_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

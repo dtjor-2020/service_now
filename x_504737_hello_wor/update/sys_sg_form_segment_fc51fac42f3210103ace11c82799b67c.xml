@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">f851fac42f3210103ace11c82799b67a</embedded_screen>
+        <form display_value="Needit - Next Quarter">f451fac42f3210103ace11c82799b678</form>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-18 12:57:02</sys_created_on>
+        <sys_id>fc51fac42f3210103ace11c82799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_sg_form_segment_fc51fac42f3210103ace11c82799b67c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-18 12:57:02</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>
