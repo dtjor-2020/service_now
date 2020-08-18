@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="Req for">d55473402ff210103ace11c82799b66e</item_parameter>
+        <screen display_value="By Request Type">2ad727482fb210103ace11c82799b638</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-18 20:01:27</sys_created_on>
+        <sys_id>82721c502f3610103ace11c82799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d55473402ff210103ace11c82799b66e</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_82721c502f3610103ace11c82799b62a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-18 20:01:27</sys_updated_on>
+        <ui_parameter display_value="Request for">792f27882fb210103ace11c82799b6b8</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

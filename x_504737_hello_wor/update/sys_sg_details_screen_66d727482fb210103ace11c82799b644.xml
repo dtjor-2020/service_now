@@ -11,17 +11,17 @@
         <roles_override/>
         <sys_class_name>sys_sg_details_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-08-18 12:57:02</sys_created_on>
-        <sys_id>f851fac42f3210103ace11c82799b67a</sys_id>
+        <sys_created_on>2020-08-18 16:55:16</sys_created_on>
+        <sys_id>66d727482fb210103ace11c82799b644</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Details</sys_name>
         <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
-        <sys_update_name>sys_sg_details_screen_f851fac42f3210103ace11c82799b67a</sys_update_name>
+        <sys_update_name>sys_sg_details_screen_66d727482fb210103ace11c82799b644</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-18 16:34:46</sys_updated_on>
+        <sys_updated_on>2020-08-18 20:04:44</sys_updated_on>
         <table>x_504737_hello_wor_needit</table>
     </sys_sg_details_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=f851fac42f3210103ace11c82799b67a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=66d727482fb210103ace11c82799b644"/>
 </record_update>
