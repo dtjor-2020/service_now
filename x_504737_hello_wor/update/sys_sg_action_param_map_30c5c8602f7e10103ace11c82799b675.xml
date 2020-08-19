@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Update Short Description ">0c0448202f7e10103ace11c82799b6f6</button>
+        <item_parameter display_value="short_description">fd07bb182f3e10103ace11c82799b644</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-19 13:45:22</sys_created_on>
+        <sys_id>30c5c8602f7e10103ace11c82799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fd07bb182f3e10103ace11c82799b644</sys_name>
+        <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_30c5c8602f7e10103ace11c82799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-19 13:45:22</sys_updated_on>
+        <ui_parameter display_value="Change Short Description field">b73548202f7e10103ace11c82799b6b4</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
