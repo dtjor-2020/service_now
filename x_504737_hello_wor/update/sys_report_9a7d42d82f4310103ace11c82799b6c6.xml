@@ -16,7 +16,7 @@
         <chart_subtitle_color/>
         <chart_subtitle_size>14</chart_subtitle_size>
         <chart_subtitle_style>normal</chart_subtitle_style>
-        <chart_title>Requests Needit</chart_title>
+        <chart_title/>
         <chart_title_color display_value="BluePalette_5">3f804840d7333100b4964ebfae610329</chart_title_color>
         <chart_title_size>20</chart_title_size>
         <chart_title_style>normal</chart_title_style>
@@ -42,7 +42,7 @@
         <donut_width_percent>42</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>active</field>
+        <field>u_request_type</field>
         <field_list>number,short_description,u_requested_for,activity_due,u_request_type,u_what_needed,state,additional_assignee_list,approval,approval_history,approval_set,assigned_to,assignment_group,business_duration,active</field_list>
         <filter/>
         <from/>
@@ -72,8 +72,8 @@
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown/>
-        <report_source/>
+        <report_drilldown display_value="Monthly Active Requests by Requested for">0afeeee02f0b10103ace11c82799b68e</report_drilldown>
+        <report_source display_value="Active NeedIt Requests (Needit)">f4abca982f4310103ace11c82799b6ad</report_source>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -94,24 +94,24 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
         <show_zero>false</show_zero>
-        <source_type>table</source_type>
+        <source_type>source</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-02 12:23:30</sys_created_on>
-        <sys_id>7379f7f02f0b50103ace11c82799b67f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Type - NeedIt</sys_name>
+        <sys_created_on>2020-08-31 15:14:34</sys_created_on>
+        <sys_id>9a7d42d82f4310103ace11c82799b6c6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Active NeedIt Requests by Type.</sys_name>
         <sys_package display_value="Hello World" source="x_504737_hello_wor">919a92eb1b1d90100853fcc8cc4bcb1f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hello World">919a92eb1b1d90100853fcc8cc4bcb1f</sys_scope>
-        <sys_update_name>sys_report_7379f7f02f0b50103ace11c82799b67f</sys_update_name>
+        <sys_update_name>sys_report_9a7d42d82f4310103ace11c82799b6c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-02 12:23:30</sys_updated_on>
+        <sys_updated_on>2020-09-01 12:19:24</sys_updated_on>
         <table>x_504737_hello_wor_needit</table>
-        <title>Request Type - NeedIt</title>
+        <title>Active NeedIt Requests by Type.</title>
         <title_horizontal_alignment>left</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
